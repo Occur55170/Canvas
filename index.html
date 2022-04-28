@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- css、js -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <!-- css、js -->
+</head>
+<body>
+	<div class="wrap">
+        <header>
+            <div class="pond">
+                <span></span>
+                <span></span>
+            </div>
+            <img src="images/header-leftup.svg" alt="" class="wow leftup">
+            <img src="images/header-leftdown.svg" alt="" class="wow leftdown">
+            <img src="images/header-rightdown.svg" alt="" class="wow rightdown">
+            <img src="images/header-con1.svg" alt="" class="con1 con">
+            <img src="images/header-con1.svg" alt="" class="con2 con">
+            <img src="images/header-con1.svg" alt="" class="con3 con">
+            <div class="header">
+                <!-- 扭蛋機-桌機版 -->
+                <div class="machine">
+                    <div class="head">
+                        <div class="tit">
+                            <img src="images/tit-head.png" alt="">
+                            <canvas id="myCanvas" width="440px" height="400px"></canvas>
+                        </div>
+                    </div>
+                    <div class="bod bodAr">
+                        <div class="ball">
+                            <a href=""><img src="images/ball1.png" id="ball1"></a>
+                            <a href=""><img src="images/ball2.png" id="ball2"></a>
+                            <a href=""><img src="images/ball3.png" id="ball3"></a>
+                            <a href=""><img src="images/ball4.png" id="ball4"></a>
+                            <a href=""><img src="images/ball5.png" id="ball5"></a>
+                        </div>
+                        <img src="images/bod-2.png" alt="" class="bod2">
+                        <img src="images/bod-3.png" alt="" class="bod3">
+                        <a href="" id="switch" class="switch"><img src="images/machine-switch.png" alt=""></a>
+                    </div>
+                </div>
+                <!-- 扭蛋機-桌機版 -->
+                <!-- 扭蛋機-手機版 -->
+                <div class="mobile-machine">
+                    <img src="images/header-fish-m.png" alt="" class="fishM">
+                    <div class="head">
+                        <div class="tit">
+                            <img src="images/tit-head-m.png" alt="">
+                            <canvas id="moCanvas" class="opa" width="300px" height="274px"></canvas>
+                        </div>
+                    </div>
+                    <div class="bod bodAr">
+                        <div class="ball">
+                            <a href=""><img src="images/ball1.png" id="ball1"></a>
+                            <a href=""><img src="images/ball2.png" id="ball2"></a>
+                            <a href=""><img src="images/ball3.png" id="ball3"></a>
+                            <a href=""><img src="images/ball4.png" id="ball4"></a>
+                            <a href=""><img src="images/ball5.png" id="ball5"></a>
+                        </div>
+                        <img src="images/bod-2.png" alt="" class="bod2">
+                        <img src="images/bod-3.png" alt="" class="bod3">
+                        <a href="" id="switch" class="switch"><img src="images/machine-switch.png" alt=""></a>
+                    </div>
+                </div>
+                <!-- 扭蛋機-手機版 -->
+            </div>
+        </header>
+        <main>
+            <img src="images/main-head.svg" alt="">
+            <div class="warn">
+                <p class="star">使用步驟：</p>
+                <div class="warnCon">
+                    <p>1.點取start按鈕即可開始轉蛋。</p>
+                    <p>2.點開掉出來的球。</p>
+                </div>
+            </div>
+        </main>
+        <footer>網站為作業練習用無任何商業用途</footer>
+    </div>
+	<script src="js/all.js"></script>
+</body>
+</html>
